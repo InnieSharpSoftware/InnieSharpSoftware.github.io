@@ -1,0 +1,322 @@
+body
+{
+   background-color: #696969;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 65px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_RadioButton1
+{
+   margin: 0;
+}
+#wb_RadioButton1, #wb_RadioButton1 *, #wb_RadioButton1 *::before, #wb_RadioButton1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_RadioButton1 input[type='radio']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 85px;
+   height: 85px;
+   left: 0;
+   top: 0;
+}
+#wb_RadioButton1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_RadioButton1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 85px;
+   height: 85px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 50%;
+}
+#wb_RadioButton1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 85px;
+   height: 85px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 85px;
+   border-radius: 50%;
+   color: #FFFFFF;
+   content: " ";
+   -webkit-transform: scale(0, 0);
+   transform: scale(0, 0);
+}
+#wb_RadioButton1 input[type='radio']:checked + label::after
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+   -webkit-transform: scale(0.66, 0.66);
+   transform: scale(0.66, 0.66);
+}
+#wb_RadioButton1 input[type='radio']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_RadioButton2
+{
+   margin: 0;
+}
+#wb_RadioButton2, #wb_RadioButton2 *, #wb_RadioButton2 *::before, #wb_RadioButton2 *::after
+{
+   box-sizing: border-box;
+}
+#wb_RadioButton2 input[type='radio']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 75px;
+   height: 75px;
+   left: 0;
+   top: 0;
+}
+#wb_RadioButton2 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_RadioButton2 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 75px;
+   height: 75px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 50%;
+}
+#wb_RadioButton2 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 75px;
+   height: 75px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 75px;
+   border-radius: 50%;
+   color: #FFFFFF;
+   content: " ";
+   -webkit-transform: scale(0, 0);
+   transform: scale(0, 0);
+}
+#wb_RadioButton2 input[type='radio']:checked + label::after
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+   -webkit-transform: scale(0.66, 0.66);
+   transform: scale(0.66, 0.66);
+}
+#wb_RadioButton2 input[type='radio']:focus + label::before
+{
+   outline: thin dotted;
+}
+#TextArea1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Checkbox1
+{
+   margin: 0;
+}
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 290px;
+   height: 290px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 290px;
+   height: 290px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 290px;
+   height: 290px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 290px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%201160%201160%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M1064%20302%20C1076%20314%2c%201082%20329%2c%201082%20346%20C1082%20363%2c%201076%20378%2c%201064%20390%20L595%20860%20L507%20947%20C495%20959%2c%20480%20965%2c%20463%20965%20C445%20965%2c%20432%20959%2c%20419%20947%20L331%20860%20L97%20624%20C85%20612%2c%2078%20599%2c%2078%20580%20C78%20563%2c%2085%20549%2c%2097%20536%20L184%20448%20C197%20436%2c%20211%20430%2c%20229%20430%20C246%20430%2c%20261%20436%2c%20273%20448%20L463%20639%20L889%20213%20C900%20202%2c%20914%20196%2c%20931%20196%20C949%20196%2c%20964%20202%2c%20976%20213%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox1 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Form1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
